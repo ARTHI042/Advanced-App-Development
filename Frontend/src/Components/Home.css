@@ -1,0 +1,123 @@
+.body1 {
+  background-image: url('https://source.unsplash.com/1600x900/?waterfront');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+body, h1, h4, p, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.headersd {
+  text-align: center;
+ padding-top: 2px;
+ color: #fcfafa;
+  align-items: center;
+  height: 40px;
+  opacity: 0.7;
+  background-color: rgb(107, 109, 110);
+}
+
+.headersd .logo {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 23px;
+  font-family: serif;
+  color: #050505;
+}
+
+.nav-items {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 3px;
+  color: #fcfafa;
+}
+
+.nav-items a {
+  font-size: 15px;
+  font-family: monospace;
+  text-decoration: none;
+  color: #fdfcfc;
+  padding: 30px 20px;
+}
+
+/* Main section styles */
+.intro {
+  margin-top: 75px;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1 {
+  font-family: serif;
+  font-size: 50px;
+  color: #faf7f7;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 100px;
+}
+
+.intro h4 {
+  font-family: serif;
+  margin-left: 125px;
+  font-size: 25px;
+  color: #faf7f7;
+  font-weight: bold;
+}
+
+.intro p {
+  margin-top: 30px;
+  font-family: serif;
+  font-size: 16px;
+  color: #fdfbfb;
+  margin-left: 150px;
+  margin-right: 400px;
+  margin-bottom: 30px;
+}
+
+.intro button {
+  margin-left: 280px;
+  background-color: #4fb6f5;
+  color: #fff;
+  padding: 12px 24px;
+  font-family: serif;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  opacity: 80%;
+}
+
+.intro button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+
+
+
+.iconss {
+  padding-right: 20px;
+}
