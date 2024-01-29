@@ -1,0 +1,44 @@
+/* 
+.lcontainer {
+    background-color: #060000;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 90%;
+    height: 300px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-top:-28px;
+  }
+  
+  
+  llabel {
+    margin-bottom: 17px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  lbutton {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+  }
+  
+  lbutton:hover {
+    background-color: #22364b;
+  }
+  
+  #error-message {
+    color: red;
+    margin-top: 10px;
+  } */
