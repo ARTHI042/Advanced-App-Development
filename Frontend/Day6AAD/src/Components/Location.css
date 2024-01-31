@@ -1,0 +1,98 @@
+.choose-location {
+    text-align: center;
+    padding: 20px;
+    color: #faf7f7;
+    
+  }
+  .navi5 {
+    /* position: absolute;
+    top: 10px; 
+    left: 58%; 
+    margin-left:375px;
+    width: 10%;
+    color: rgb(248, 245, 245);
+    font-size: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around; */
+    padding: 10px 20px;
+    background-color: #282829;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .navi5 a:hover{
+    background-color: #484848;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.navi5 a{
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+    padding: 10px;
+    
+}
+  .loc{
+    background-image: url('https://source.unsplash.com/1600x900/?waterfront');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height:650px;
+    overflow: hidden;
+  }
+  
+  h1 {
+    color: #f8f2f2;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
+  
+  .box-con {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .bo {
+    
+    height: 150px;
+width: 230px;
+border-radius: 10px;
+box-shadow: 3px 3px 10px rgba(95, 95, 95, 0.751);
+padding: 20px;
+color: #010101;
+display: flex;
+align-items: center;
+justify-content: space-around;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+  }
+  .bo:hover {
+    transform: scale(1.08);
+    }
+  
+  /* Customize box colors if needed */
+  .bbox1 {
+    background-color: #fdf9f9;
+  }
+  
+  .bbox2 {
+    background-color: #fdf9f9;
+  }
+  
+  .bbox3 {
+    background-color: #fdf9f9;
+  }
+  
+  .bbox4 {
+    background-color: #fdf9f9;
+  }
+  

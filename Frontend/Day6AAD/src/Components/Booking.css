@@ -1,0 +1,97 @@
+/* Booking.css */
+.registration-form-container {
+    margin-top: 800px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 6%;
+    background-color: #e5e2e2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity:90%;
+    
+  }
+  .navi566 {
+    /* position: absolute;
+    top: 10px; 
+    left: 58%; 
+    margin-left:375px;
+    width: 10%;
+    color: rgb(248, 245, 245);
+    font-size: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around; */
+    padding: 10px 20px;
+     background-color: #282829; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .navi566 a:hover{
+    /* background-color: #484848; */
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.navi566 a{
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+    padding: 10px;
+    
+}
+  .dude
+  {
+    background-image: url('https://source.unsplash.com/1600x900/?waterfront');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    overflow: hidden;
+  }
+  .form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    color:black
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .persons-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  h2{
+    color: black;
+  }
+  
+  .proceed-button {
+    background-color: #3e3e3e;
+    color: #f9f6f6;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .proceed-button:hover {
+    background-color: #6b6d6b;
+  }
+  
