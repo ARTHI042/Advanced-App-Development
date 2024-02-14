@@ -1,0 +1,183 @@
+/* Home.css */
+
+/* body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}  */
+.body1
+{
+  background-color: rgb(240, 247, 219);
+  overflow: hidden;
+}
+
+
+.foot{
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: auto;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: auto;
+  bottom: 0;
+  width: 100%;
+}
+.home-social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.home-social-icons svg {
+  cursor: pointer;
+}
+
+.home-social-icons svg:hover {
+  color: #faf8f8; /* Change color on hover */
+}
+
+.headersde {
+  background-color: #f9fbfc;
+padding-left: 700px;
+height: 90px;
+padding-right: 700px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 4px;
+  opacity:70%;
+}
+
+.intro23 {
+  /* background-image: url('https://source.unsplash.com/1600x900/?boathouse'); */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f8f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding-bottom:2px ;
+  text-align: center;
+  margin: 20px;
+}
+.logo1
+{
+  height:-2000px;
+  width: -2000px;
+}
+.logo1 img
+{
+  height: 400px;
+  width: 580px;
+  align-items: center;
+  padding-top: 100px;
+  margin-left: 340px;
+  padding-bottom: 1px;
+}
+.intro23 h1 {
+  padding-bottom: 10px;
+  color: #201f1f;
+  font-size:60px;
+}
+.headersde h1{
+  color: #090909;
+  font-size: 40px;
+  padding-top: -900px;
+  
+}
+.hop
+{
+  padding-top: 40px;
+}
+.intro23 h4 {
+  color: #272626;
+  font-size:30px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+
+}
+
+.intro23 p {
+  color: #1f1e1e;
+  max-width: 600px;
+  padding-top: -2000px;
+  font-size:20px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.iconss {
+  height: 100px; /* Adjust as needed */
+  background-color: #ecf0f1;
+}
+.boat-class {
+  text-align: center;
+  padding: 30px 0 ;
+  background-color: #fdffff;
+  max-width: auto;
+  margin:0 auto;
+  margin-bottom: 5px;
+  padding-top: -90px;
+}  
+.boat-pic{
+  margin-top: 10px;
+}
+
+.boat-class .boat-pic img {
+  /* max-width: 900px; */
+  height: 500px;
+  width: 1700px;
+  display: block;
+  padding-top: -200px;
+  margin-top: 10px;
+  max-height: 500px;
+  transform: translateY(20px); /* Set initial translation for slide-up effect */
+  transition: opacity 1s, transform 1s; /* Adjust the maximum height as needed */
+
+}
+
+.boat-class .boat-pic img.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.feature {
+  text-align: center;
+  max-width: 300px;
+}
+.feature p{
+  color: #090909;
+}
+.do{
+color: #090909;
+}
